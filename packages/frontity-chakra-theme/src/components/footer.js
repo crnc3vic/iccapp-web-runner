@@ -35,7 +35,7 @@ const Footer = ({ state }) => (
         fontFamily="heading"
         textTransform="uppercase"
       >
-        © {new Date().getFullYear()} Frontity!
+        © {new Date().getFullYear()} ICCAPP FRA
       </FooterSectionItem>
 
       <FooterSectionItem borderColor="accent.400">
@@ -47,7 +47,7 @@ const Footer = ({ state }) => (
         fontFamily="heading"
         textTransform="uppercase"
       >
-        FRA ICCAPP
+        Supported by <a href="https://phonetool.amazon.com/users/crncevic">@crncevic</a>
       </FooterSectionItem>
     </FooterSectionGroup>
   </FooterSection>
