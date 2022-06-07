@@ -1,0 +1,146 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "1a55130a543464ae4d4e",
+  "publicPath": "",
+  "outputPath": "C:\\Users\\crncevic\\Documents\\ICCAPP website\\iccapp\\build\\static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "fra-iccapp": [
+      "fra-iccapp.module.js",
+      "fra-iccapp.c53b4af495edc50ea7c5.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "archive.module.js",
+      "size": 93963,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "c53b4af495edc50ea7c5.hot-update.json",
+      "size": 52,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/KelsonSans-Bold.ttf",
+      "size": 67072,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/fonts/KelsonSans-Bold.ttf"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/KelsonSans-Bold.woff",
+      "size": 21548,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/fonts/KelsonSans-Bold.woff"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fra-iccapp.c53b4af495edc50ea7c5.hot-update.js",
+      "size": 25391,
+      "chunks": [
+        "fra-iccapp"
+      ],
+      "chunkNames": [
+        "fra-iccapp"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "fra-iccapp.module.js",
+      "size": 15221491,
+      "chunks": [
+        "fra-iccapp"
+      ],
+      "chunkNames": [
+        "fra-iccapp"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-green.svg",
+      "size": 74467,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-green.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-light-fade.svg",
+      "size": 95727,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-light-fade.svg"
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "fra-iccapp": {
+      "chunks": [
+        "fra-iccapp"
+      ],
+      "assets": [
+        "fra-iccapp.module.js",
+        "fra-iccapp.c53b4af495edc50ea7c5.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive"
+      ],
+      "assets": [
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "archive",
+      "files": [
+        "archive.module.js"
+      ]
+    },
+    {
+      "id": "fra-iccapp",
+      "files": [
+        "fra-iccapp.module.js",
+        "fra-iccapp.c53b4af495edc50ea7c5.hot-update.js"
+      ]
+    }
+  ]
+}
