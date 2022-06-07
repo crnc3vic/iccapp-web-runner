@@ -1,8 +1,10 @@
-version: 1.0
-runtime: nodejs16
+name: app
 
-build:
-  commands:
-    build:
-      - npm ci
-      - npm run dev
+type: 'nodejs:16'
+
+hooks:
+    build: npx frontity build
+
+web:
+    commands:
+        start: npx frontity serve
