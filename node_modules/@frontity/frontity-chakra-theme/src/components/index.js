@@ -1,5 +1,5 @@
 import { Box, ChakraProvider, extendTheme } from "@chakra-ui/react";
-import { connect, Head } from "frontity";
+import { connect, css, Global, Head, styled } from "frontity";
 import Switch from "@frontity/components/switch";
 import React from "react";
 import Archive from "./archive";
@@ -11,6 +11,9 @@ import Post from "./post/post";
 import SearchResults from "./search";
 import Title from "./title";
 import FontFace from "./styles/font-face";
+import gutenbergStyle from "./styles/gutenberg/style.css";
+import gutenbergTheme from "./styles/gutenberg/theme.css";
+
 
 // Theme is the root React component of our theme. The one we will export
 // in roots.
@@ -27,6 +30,8 @@ const Theme = ({ state }) => {
 
   return (
     <ChakraProvider theme={{ ...overrides }}>
+      <Global styles={css(gutenbergStyle)} />
+      <Global styles={css(gutenbergTheme)} />
       <FontFace />
       {/* Add some metatags to the <head> of the HTML. */}
       <Title />
