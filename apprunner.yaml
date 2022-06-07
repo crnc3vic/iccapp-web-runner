@@ -5,9 +5,4 @@ build:
   commands:
     build:
       - npm ci
-      - npm run build
-
-run:
-  command: npm run serve
-  network:
-    port: 3000
+      - npm run dev
