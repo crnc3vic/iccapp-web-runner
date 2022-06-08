@@ -8,7 +8,8 @@ const settings = {
     }
   },
   "packages": [
-    {
+   
+      {
       name: "@frontity/frontity-chakra-theme",
       state: {
         theme: {
@@ -26,12 +27,7 @@ const settings = {
             ["About", "/about/"],
             ["Contact", "/contact/"],
           ],
-          // the social links
-          socialLinks: [
-            ["pinterest", "https://www.pinterest.com/frontity/"],
-            ["facebook", "https://www.instagram.com/frontity/"],
-            ["twitter", "https://www.twitter.com/frontity/"],
-          ],
+
           // color shades to use in the blog
           colors: {
             primary: {
@@ -72,7 +68,9 @@ const settings = {
       }
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
+    "@frontity/html2react",
+    "@aamodtgroup/frontity-contact-form-7"
+      
   ]
 };
 

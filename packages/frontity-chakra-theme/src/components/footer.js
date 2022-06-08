@@ -45,6 +45,7 @@ const Footer = ({ state }) => (
       <FooterSectionItem
         fontWeight="bold"
         fontFamily="heading"
+        fontSize="14"
         textTransform="uppercase"
       >
         Supported by <a href="https://phonetool.amazon.com/users/crncevic">@crncevic</a>
